@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "telepat",
+  "description": "Telepat — Claude Code plugins for mirroring sessions to wearables",
+  "owner": {
+    "name": "vova4kin"
+  },
+  "plugins": [
+    {
+      "name": "telepat-watch",
+      "description": "Mirror Claude Code sessions to a Galaxy Watch — Approve/Deny tool calls from your wrist.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vova4kin/telepat-watch.git",
+        "sha": "059e805cb04d7d8d7713cec6650e89dc2de31786"
+      },
+      "homepage": "https://github.com/vova4kin/telepat-watch"
+    }
+  ]
+}
